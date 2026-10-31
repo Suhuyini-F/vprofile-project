@@ -1,0 +1,6 @@
+.DS_Store
+.vagrant/
+target/
+*.war
+*.swp
+Vagrantfile.*-backup
