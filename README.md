@@ -6,11 +6,7 @@ This project runs the VProfile web application locally on an Apple Silicon Mac u
 
 ## Architecture
 
-### Original diagram from the Mac M1 guide
-
 ![Architecture diagram extracted from page 2 of the Mac M1 guide](images/architecture-from-m1-guide.png)
-
-The guide's reference diagram includes clustered components that are not part of this single-VM-per-service local setup. The following diagram shows this project's services and the firewall ports listed in the guide.
 
 ### Local services and firewall ports
 
