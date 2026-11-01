@@ -53,7 +53,3 @@ The app is available at `http://192.168.56.11` on the host Mac while the Vagrant
 5. Open [http://192.168.56.11](http://192.168.56.11) to view the application.
 
 The application source is cloned onto `app01` during provisioning. Keep local passwords and other secrets out of Git.
-
-## Demo
-
-Optional: add a short screen recording showing the application running.
