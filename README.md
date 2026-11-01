@@ -26,9 +26,6 @@ flowchart LR
     App -->|TCP 5671 · TCP 5672| QueueFW[rmq01 firewalld<br/>TCP 5671 · TCP 5672]
     QueueFW --> Queue[RabbitMQ · rmq01<br/>192.168.56.16]
 ```
-
-The guide does not show a firewall command for Nginx on `web01`; TCP port 80 is shown as the browser's web connection.
-
 ### What each part does
 
 - **Vagrant** starts and manages the project’s virtual machines.
